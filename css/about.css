@@ -1,0 +1,97 @@
+.col-text h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.col-img img {
+    height: 90%;
+    width: 100%;
+    border-radius: 25px;
+    filter: grayscale(0);
+    transition: 1s;
+}
+
+.col-img img:hover {
+    height: 90%;
+    width: 100%;
+    filter: grayscale(.7);
+    transform: scale(0.7);
+}
+
+.col-text h4 {
+    color: var(--green);
+    font-family: "Lobster", sans-serif;
+}
+
+
+/* Responsive adjustments */
+@media (width>1100px) {
+
+    .col-text {
+        padding-top: 80px;
+    }
+}
+
+@media (width<1100px) {
+
+    .col-text {
+        padding-top: 80px;
+    }
+}
+
+@media (width<990px) {
+
+    .col-text {
+        padding-top: 50px;
+    }
+}
+
+@media (width<899px) {
+
+    .col-img img {
+        height: 100%;
+    }
+}
+
+@media (width>899px) {
+    .row .col.col-text {
+        letter-spacing: 1px;
+    }
+}
+
+@media (width<1100px) {
+    .breadcrumb {
+        margin-top: 10px;
+        margin-left: 42%;
+    }
+
+    .row .col.col-text {
+        padding: 2px;
+    }
+}
+
+@media (width<790px) {
+    .breadcrumb {
+        margin-top: 10px;
+        margin-left: 39%;
+    }
+}
+
+@media (width<610px) {
+    .breadcrumb {
+        margin-top: 10px;
+        margin-left: 35%;
+    }
+}
+
+@media (width<566px) {
+    .who-we-are .row {
+        display: block;
+    }
+}
+
+@media (width<767px) {
+    .col-img img {
+        height: 75%;
+    }
+}
+
